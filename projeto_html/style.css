@@ -1,0 +1,90 @@
+/*Configuração de estilo geral*/
+*{
+    margin: 0;
+    padding: 5px;
+    text-align: justify;
+}
+
+/*Configuração de estilo do corpo*/
+body{
+    font-family: Nunito, sans-serif;
+    font-size: global-font-size;
+    color: #555;
+
+}
+
+/*Configuração de estilo do Título*/
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Configurações de estilo do título da sessão*/
+h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Configurações de estilo do subtítulo da página*/
+h3{
+    text-align: center;
+    margin-top: 5px;
+    padding: 0;
+}
+
+/*Configurações de estilo do container*/
+.container{
+    display: flex;
+    align-items: center;
+}
+
+/*Configurações de estilo do Header*/
+header{
+    background-color: #899095;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;;
+    align-items: center;
+    width: fit-content;
+
+}
+
+/*configuração de estilos do Footer*/
+footer{
+    margin: 0;
+    padding: 5px;
+    background-color: #899095;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: fit-content;
+}
+
+/*Tentei implementar o "Modo escuro com o código de variáveis mas deu ruim...
+vou trabalhar para melhorar no próximo. Deixei o código aqui só para mostrar a tentativa*/
+/*:root{
+    --body-bg:#fafafa;
+    --dody-color:#555;
+    --link-color:#222;
+    --link-color-hover:#ec5840;
+}
+
+.dark-mode:root{
+    --body-bg:#212529;
+    --dody-color:#899095;
+    --link-color:#dee2e6;
+    --link-color-hover:#3cc368;
+}*/

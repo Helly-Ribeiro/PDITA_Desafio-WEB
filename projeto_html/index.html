@@ -1,0 +1,116 @@
+<!--Este projeto foi construído literalmente com muita força de vontade,
+    espero que gostem um pouco do que compartilhei sobre a minha cidade-->
+
+<!--Esta inicialização padronizada do html, não tem muito o que comentar... rsrsr...-->
+<!DOCTYPE html>
+<!--Alteração da linguagem-->
+<html lang="pt-br">
+<!--Construção da guia da página-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título da minha página linda que vai aparecer na guia do navegador-->
+    <title>Itabira sob o olhar de um Itabirano</title>
+    <!--Ícone que vai ficar fixo na guia-->
+    <link rel="shortcut icon" href="image/Tatice-Cristal-Intense-Globe-terrestre.ico" type="image/x-icon">
+    <!--Referêcia ao arquivo de .css pricipal para os estilos-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Início do corpo do programa-->
+<body>
+    <!--Cabeçalho do programa-->
+    <header>
+        <!--Menu  de navegação-->
+        <nav>
+            <!--Lista de navegação-->
+            <ul>
+                <!--Itens da lista de navegação-->
+                <li><a href="#1">Itabira</a></li>
+                <li><a href="#2">Morro Redondo</a></li>
+                <li><a href="#3">Cachoeira do Patrocínio</a></li>
+                <li>
+                    <!--Neste item específicamente, tentei fazer a opção do "modo escuro", mas não deu certo...-->
+                    <label for="switch">
+                        <input type="checkbox" id="switch"> Modo Escuro
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Parte principal da página-->
+    <main>
+        <!--Título principal da página-->
+        <h1>Itabira sob o olhar de um Itabirano</h1>
+        <!--Subtítulo da página-->
+        <h3>A apresentação de itabira sob o olhar de um itabirano apaixonado pela sua terra e suas peculiares belezas</h3>
+        <!--1ª Sessão da página. Cada tema que escolhi ficou em uma sessão diferente-->
+        <section id="1" class="itabira">
+            <!--Título da sessão-->
+            <h2>Itabira - Poesia e Ferro</h2>
+            <!--Aqui precisei do recurso "div" para criar a class "container" com o objetivo de colocar os dois blocos de assunto
+            na mesma linha da página, ou seja, colocar o texto e a imagem lado a lado. Todas as seessões seguiram a mesma lógica.-->
+            <div class="container">
+                <!--Caminho da imagem-->
+                <img src="image/itabira/Paredão_680.webp" alt="Itabira">
+                <!--Parágrafo principal. Acabei usando o recurso do <br> para saltar parágrafos pq não consegui separar com o <p> sem bagunçar a disposição dos textos na tela... kkkkkkkkk... vou me esforçar em corrigir isso mais adiante.-->
+                <p>
+                    Itabira é conhecida como a “Cidade do Ferro”, por ter sido o local de origem da Companhia Vale do Rio Doce, em 1942, é também carinhosamente apelidada por seus habitante de cidade da poesia, por ser a cidade natal do poeta Carlos Drummond de Andrade. O nome “itabira” se origina da antiga língua tupi, significando “pedra que brilha”, através da junção dos termos itá (“pedra”) e byra (“que brilha”).
+                    <br>
+                    <br>           
+                    Também há uma série de atrativos naturais, tais como a Mata do Limoeiro, a Pedra da Igreja, a Serra do Bicudo e a Serra dos Alves, além das cachoeiras dos Cristais, do Campo, da Boa Vista, do Limoeiro e do Meio.
+                    <br>
+                    <br>           
+                    Durante a história ao longo do século XX várias empresas vêm para Itabira atraídas pelas reservas ferríferas, e em 1942 é criada a Vale S.A. (antiga Companhia Vale do Rio Doce), dando início à exploração do minério de ferro em grande escala e a um novo período de desenvolvimento social, econômico e estrutural em Itabira.
+                    <br>
+                    <br>           
+                    Influenciado pelas condições geológicas, geomorfológicas e pedológicas, o município de Itabira conta com uma grande variedade de rios e riachos de pequeno ou médio porte, com leitos bem encaixados e muitos nascendo dentro do próprio território. Os principais cursos d’água que compõem a rede de drenagem itabirana são os rios Tanque, Jirau, de Peixe e Santa Bárbara.
+                </p>
+            </div>          
+        </section>
+        <!--2ª Sessão-->
+        <section id="2"  class="morro-redondo">
+            <!--Título da sessão-->
+            <h2>Morro Redondo - História e emoção</h2>
+            <!--Aqui usei o mesmo recurso anterior, a diferença foi que alternei a posição da imagem e do texto propositalmente, para melhorar a experiência de navegação da página-->            
+            <div class="container">
+                 <p>
+                    A uma altitude de 1224 metros, tem-se uma visão de 360 graus da região para um mar de montanhas. Em seu topo encontram-se o Santuário Senhor do Bom Jesus em estilo barroco e obras da artista plástica Vilma Noel. A Festa de Santa Cruz realizada anualmente, tem uma caminhada de Ipoema ao Morro Redondo para abrir os festejos.
+                    <br>
+                    <br>
+                    Também é realizada a cerimônia de benção do sino no campanário do Santuário Senhor do Bonfim. O sino construído pelo processo artesanal, possui o nome dos doadores, do Santuário, além do local e data. Vale destacar que há no mundo apenas seis lugares que ainda fundem o sino pelo processo artesanal, como na época medieval.
+                </p>
+                <!--Caminho para a imagem-->
+                <img src="image/morro_redondo/IPOEMA-ELVIRA-1_680.jpg" alt="Morro Redondo">
+            </div>
+        </section>
+       <!--3ª Sessão-->
+        <section id="3" class="cachoeira-patrocinio">
+            <!--Título da sessão-->
+            <h2>Cachoeira do Patrocínio - Recanto preservado</h2>
+            <!--Aplicação do método novamente...-->
+            <div class="container">
+                <!--Alternância da posição da imagem novamente-->
+                <img src="image/cachoeira/cachoeira patrocinio amaro_680.jpg" alt="Cachoeira do Patrocínio Amaro">            
+                <p>
+                    Cachoeira Patrocínio Amaro, localizada á 16 km do centro de Ipoema e está em uma propriedade privada, aonde funciona uma pousada de mesmo nome. A cachoeira é formada por duas quedas que totalizam 50 metros de altura! A trilha é de fácil acesso e caminhada leve, o poço de águas cristalinas é raso e excelente para o banho!
+                    <br>
+                    <br>
+                    Mirante Pedra da Tartaruga, que é opcional! O caminho até lá é bastante íngreme e é preciso fazer uma 'escalaminhada', o que necessita esforço e disposição! Mas ó: vale a pena demais! A vista é de tirar o fôlego e a experiência única e memorável.
+                </p>
+            </div>            
+        </section>
+    </main>
+    <!--Início do rodapé da página-->
+    <footer>
+        <!--Lista de links das redes sociais mais relevantes
+        obs.: O ícone do intagram não ficou bom, vou melhorar com o tempo...-->
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank" rel="external"><img src="image/Yootheme-Social-Bookmark-Social-facebook-button-blue.48.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="external"><img src="image/Instagram-48.jpg" alt="Instagram"></a></li>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="external"><img src="image/LinkendIn 48.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="external"><img src="image/Dakirby309-Simply-Styled-YouTube.48.png" alt="YouTube"></a></li>
+        </ul>
+        <p>Helly Ribeiro - PDITA060</p>
+    </footer>
+</body>
+</html>
